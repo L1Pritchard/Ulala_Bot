@@ -14,7 +14,7 @@ module.exports = {
 		> Mage`,
 	args: true,
 	execute(message, args) {
-		const embed = new Discord.MessageEmbed();
+		const embed = new Discord.MessageEmbed().setDescription(`You need to add a valid class to the end of the command.\nPlease try again.`).setTitle(`ERROR`);
 		if (args[0] === `warrior`) {
 			embed.setColor(`GREY`)
 			embed.setTitle(`Optimal Warrior Clatter Cards`)

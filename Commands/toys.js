@@ -12,9 +12,10 @@ module.exports = {
 		> Assassin (alias: sin)
 		> Hunter (alias: hunt)
 		> Mage`,
-	args: true,
+        args: true,
 	execute(message, args) {
-		const embed = new Discord.MessageEmbed();
+        const embed = new Discord.MessageEmbed().setDescription(`You need to add a valid class to the end of the command.\nPlease try again.`).setTitle(`ERROR`);
+
 		if (args[0] === `shaman` | `sham`) {
 			embed.setColor(`BLUE`)
 			embed.setTitle(`Optimal Shaman Toys`)
