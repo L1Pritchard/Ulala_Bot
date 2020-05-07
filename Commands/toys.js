@@ -1,7 +1,7 @@
 const Discord = require(`discord.js`);
 
 module.exports = {
-	name: `toys`,
+    name: `toys`,
 	description: 
 	`Shows the optimal toys for the requested class.\n> **The current list of classes are:**
 		> Warrior
@@ -11,19 +11,21 @@ module.exports = {
 		> Warlock (alias: lock)
 		> Assassin (alias: sin)
 		> Hunter (alias: hunt)
-		> Mage`,
-        args: true,
+        > Mage`,
+    aliases: [`toy`],
+    usage: `[class]`,
+    args: true,
 	execute(message, args) {
         const embed = new Discord.MessageEmbed().setDescription(`You need to add a valid class to the end of the command.\nPlease try again.`).setTitle(`ERROR`);
 
-		if (args[0] === `shaman` | `sham`) {
+		if (args[0] === `shaman` || args[0] === `sham`) {
 			embed.setColor(`BLUE`)
 			embed.setTitle(`Optimal Shaman Toys`)
 			embed.setDescription(`The Top 4 Toys for Shaman`)
             embed.addFields(
                 {name: `First`, value: `Sheep`},
                 {name: `Second`, value: `Snow Marmot (keep regular too)`},
-                {name: `Third`, value: `Hermic Crab`},
+                {name: `Third`, value: `Hermit Crab`},
                 {name: `Fourth`, value: `Ankylosaur`},
                 {name: `\u200B`, value: `\u200B`},
                 {name: `Optionals:`, value: `Irish Elk\nQueen Dragon\nWind Dragon`})
@@ -55,7 +57,7 @@ module.exports = {
                 {name: `Optionals:`, value: `Dimetrodon\nTriceratops\nWalrus\nAnkylosaur\nWind Dragon\nDandelion`})
 		}
 
-		if (args[0] === `gladiator` | `glad`) {
+		if (args[0] === `gladiator` || args[0] === `glad`) {
 			embed.setColor(`DARK_RED`)
 			embed.setTitle(`Optimal Gladiator Toys`)
 			embed.setDescription(`The Top 4 Toys for Gladiator`)
@@ -68,7 +70,7 @@ module.exports = {
                 {name: `Optionals:`, value: `Dimetrodon\nTriceratops\nDandelion\nWind Dragon\nAnkylosaur`})
 		}
 
-		if (args[0] === `assassin` | `sin`) {
+		if (args[0] === `assassin` || args[0] === `sin`) {
 			embed.setColor(`RED`)
 			embed.setTitle(`Optimal Assassin Toys`)
 			embed.setDescription(`The Top 4 Toys for Assassin`)
@@ -81,7 +83,7 @@ module.exports = {
                 {name: `Optionals:`, value: `Anyklosaur\nUnicorn Gorilla\nYak King`})
 		}
 
-		if (args[0] === `hunter` | `hunt`) {
+		if (args[0] === `hunter` || args[0] === `hunt`) {
 			embed.setColor(`DARK_GREEN`)
 			embed.setTitle(`Optimal Hunter Toys`)
 			embed.setDescription(`The Top 4 Toys for Hunter`)
@@ -107,7 +109,7 @@ module.exports = {
                 {name: `Optionals:`, value: `Brown Bear\nAnkylosaur\nUnicorn Gorilla\nWarg King`})
 		}
 
-		if (args[0] === `warlock` | `lock`) {
+		if (args[0] === `warlock` || args[0] === `lock`) {
 			embed.setColor(`PURPLE`)
 			embed.setTitle(`Optimal Warlock Toys`)
 			embed.setDescription(`The Top 4 Toys for Warlock`)

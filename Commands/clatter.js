@@ -12,6 +12,8 @@ module.exports = {
 		> Assassin (alias: sin)
 		> Hunter (alias: hunt)
 		> Mage`,
+	aliases: [`cards`],
+	usage: `[class]`,
 	args: true,
 	execute(message, args) {
 		const embed = new Discord.MessageEmbed().setDescription(`You need to add a valid class to the end of the command.\nPlease try again.`).setTitle(`ERROR`);

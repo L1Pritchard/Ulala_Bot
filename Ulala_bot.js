@@ -7,7 +7,7 @@ const { prefix, token } = require(`./config.json`);
 cooldowns = new Discord.Collection();
 
 client.once(`ready`, () => {
-    console.log(`Booted up successfully!\nCurrent server, ${client.guilds.name}, has ${client.users.size} members`);
+    console.log(`Booted up successfully!\nCurrently serving ${client.guilds.cache.size} servers with ${client.users.cache.size} users!`);
     client.user.setActivity(`!help for my list of commands`)
 });
 
@@ -15,6 +15,12 @@ for (const file of commandFiles) {
     const command = require(`./Commands/${file}`);
     client.commands.set(command.name, command);
 }
+
+client.on(`guildMemberAdd`, member => {
+    const channel = member.guild.channels.cache.find(ch => ch.name === `general`);
+    if (!channel) return;
+    channel.send(`Welcome to the server, ${member}.\nPlease make sure to add yourself to the Clan War spreadsheet.`);
+});
 
 client.on(`message`, message => {
     if (!message.content.startsWith(prefix) || message.author.box) return;
