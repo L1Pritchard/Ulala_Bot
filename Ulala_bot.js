@@ -7,7 +7,8 @@ const { prefix, token } = require(`./config.json`);
 cooldowns = new Discord.Collection();
 
 client.once(`ready`, () => {
-    console.log(`Booted up successfully!`);
+    console.log(`Booted up successfully!\nCurrent server, ${client.guilds.name}, has ${client.users.size} members`);
+    client.user.setActivity(`!help for my list of commands`)
 });
 
 for (const file of commandFiles) {
