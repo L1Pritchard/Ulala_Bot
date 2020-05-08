@@ -25,7 +25,7 @@ module.exports = {
 			embed.setImage(`attachment://warrior.jpg`)
 		}
 
-		if (args[0] === `glad` | `gladiator`) {
+		if (args[0] === `glad` || args[0] === `gladiator`) {
 			embed.setColor(`DARK_RED`)
 			embed.setTitle(`Optimal Gladiator Clatter Cards`)
 			embed.setDescription(`These are the optimal, end-game Gladiator Clatter Cards`)
@@ -33,7 +33,7 @@ module.exports = {
 			embed.setImage(`attachment://gladiator.jpg`)
 		}
 
-		if (args[0] === `shaman` | `sham`) {
+		if (args[0] === `shaman` || args[0] === `sham`) {
 			embed.setColor(`BLUE`)
 			embed.setTitle(`Optimal Shaman Clatter Cards`)
 			embed.setDescription(`These are the optimal, end-game Shaman Clatter Cards`)
@@ -49,7 +49,7 @@ module.exports = {
 			embed.setImage(`attachment://druid.jpg`)
 		}
 
-		if (args[0] === `warlock` | `lock`) {
+		if (args[0] === `warlock` || args[0] === `lock`) {
 			embed.setColor(`PURPLE`)
 			embed.setTitle(`Optimal Warlock Clatter Cards`)
 			embed.setDescription(`These are the optimal, end-game Warlock Clatter Cards`)
@@ -57,7 +57,7 @@ module.exports = {
 			embed.setImage(`attachment://warlock.jpg`)
 		}
 
-		if (args[0] === `Assassin` | `sin`) {
+		if (args[0] === `Assassin` || args[0] === `sin`) {
 			embed.setColor(`RED`)
 			embed.setTitle(`Optimal Assassin Clatter Cards`)
 			embed.setDescription(`These are the optimal, end-game Assassin Clatter Cards`)
@@ -65,7 +65,7 @@ module.exports = {
 			embed.setImage(`attachment://assassin.jpg`)
 		}
 
-		if (args[0] === `hunter` | `hunt`) {
+		if (args[0] === `hunter` || args[0] === `hunt`) {
 			embed.setColor(`DARK_GREEN`)
 			embed.setTitle(`Optimal Hunter Clatter Cards`)
 			embed.setDescription(`These are the optimal, end-game Hunter Clatter Cards`)
