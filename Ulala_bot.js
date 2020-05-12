@@ -8,7 +8,7 @@ cooldowns = new Discord.Collection();
 
 client.once(`ready`, () => {
     console.log(`Booted up successfully!\nCurrently serving ${client.guilds.cache.size} servers with ${client.users.cache.size} users!`);
-    client.user.setActivity(`!help for my list of commands`)
+    client.user.setActivity(`!help for my list of commands`, {type: "LISTENING"})
 });
 
 for (const file of commandFiles) {
@@ -19,7 +19,7 @@ for (const file of commandFiles) {
 client.on(`guildMemberAdd`, member => {
     const channel = member.guild.channels.cache.find(ch => ch.name === `general`);
     if (!channel) return;
-    channel.send(`Welcome to the server, ${member}.\nPlease make sure to add yourself to the Clan War spreadsheet.`);
+    channel.send(`Welcome to the server, ${member}.\nPlease make sure to add yourself to the Clan War spreadsheet if you aren\'t on there already.`);
 });
 
 client.on(`message`, message => {
