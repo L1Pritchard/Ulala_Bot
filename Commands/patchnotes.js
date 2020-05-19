@@ -7,7 +7,7 @@ module.exports = {
 	`Provides a preview of the patch notes and the option to send them to <#640817663131516939>`,
     aliases: [`patch`],
     args: false,
-    //cooldown: 600,
+    cooldown: 600,
 	execute(message) {
 
             fs.readFile(`./patchnotes.txt`, `utf8`, function(err, contents) {

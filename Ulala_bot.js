@@ -5,23 +5,28 @@ client.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync(`./Commands`).filter(file => file.endsWith(`.js`));
 const { prefix, token } = require(`./config.json`);
 cooldowns = new Discord.Collection();
+const CronJob = require(`cron`).CronJob;
 
+//boot message
 client.once(`ready`, () => {
     console.log(`Booted up successfully!\nCurrently serving ${client.guilds.cache.size} servers with ${client.users.cache.size} users!`);
-    client.user.setActivity(`!help for my list of commands`, {type: "LISTENING"})
+    client.user.setActivity(`!help`, {type: "LISTENING"})
 });
 
+//checks for command files
 for (const file of commandFiles) {
     const command = require(`./Commands/${file}`);
     client.commands.set(command.name, command);
 }
 
+//auto message for new members
 client.on(`guildMemberAdd`, member => {
     const channel = member.guild.channels.cache.find(ch => ch.name === `general`);
     if (!channel) return;
     channel.send(`Welcome to the server, ${member}.\nPlease make sure to add yourself to the Clan War spreadsheet if you aren\'t on there already.`);
 });
 
+//command processing
 client.on(`message`, message => {
     if (!message.content.startsWith(prefix) || message.author.box) return;
     const args = message.content.slice(prefix.length).split(/ +/);
@@ -59,8 +64,6 @@ client.on(`message`, message => {
     timestamps.set(message.author.id, now);
     setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
 
-    
-
     //Command execution
     try {
         command.execute(message, args);
@@ -73,7 +76,33 @@ client.on(`message`, message => {
 
 });
 
+//autotimer for war placements
+const warjob1 = new CronJob(`0 9-17/4 * * 4`, function() {
+    const warchannel = client.channels.cache.get(`641976295781040135`);//clan-war channel
+    const warembed = new Discord.MessageEmbed()
+        .setColor(`RED`)
+        .setTitle(`ALERT`)
+        .setDescription(`War placements are now open.\n\n 
+                        Please check your placement in ${warchannel}.`)
+    warchannel.send(`@everyone`);
+    warchannel.send(warembed);
+}, null, true, `Europe/London`);
+warjob1.start();
 
+//autotimer for war placements last call
+const warjob2 = new CronJob(`0 9-17/4 * * 6`, function() {
+    const warchannel = client.channels.cache.get(`641976295781040135`);//clan-war channel
+    const warembed2 = new Discord.MessageEmbed()
+        .setColor(`RED`)
+        .setTitle(`\*\*ALERT\*\*`)
+        .setDescription(`War placements are closing in 2 hours.\n\n 
+                        Please check your placement in ${warchannel} and join if you haven't already.\n\n
+                        If you do not join you may be kicked out of the clan.`)
+    warchannel.send(`@everyone`);
+    warchannel.send(warembed2);
+    
+}, null, true, `Europe/London`);
+warjob2.start();
 
 
 client.login(token);
