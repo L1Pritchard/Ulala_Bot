@@ -3,57 +3,57 @@ Ulala: Idle Adventure will undergo scheduled maintenance on May 28 8AM-10AM (BST
 __**Update Contents:**__
 
 **1. Cheerful Childhood Event**
-:bl: a. Arena: Ultra Rapid Fire Mode
-:bl: :bl: i. Event Period: 29/05 4AM - 10/06 4AM
-:bl: :bl: ii. Ultra Rapid Fire Mode will be available at the arena. During this mode, skills do not consume energy points.
-:bl: :bl: iii. Additional rewards are available for the number of victories accumulated during concurrent events.
+  a. Arena: Ultra Rapid Fire Mode
+    i. Event Period: 29/05 4AM - 10/06 4AM
+    ii. Ultra Rapid Fire Mode will be available at the arena. During this mode, skills do not consume energy points.
+    iii. Additional rewards are available for the number of victories accumulated during concurrent events.
 
-:bl: b. Cheerful Pack
-:bl: :bl: i. Event Period: 28/05 10PM - 09/06 10PM
+  b. Cheerful Pack
+    i. Event Period: 28/05 10PM - 09/06 10PM
 
-**2. Two new UP skills have been added for each class, with the following effects:
-:bl: Warrior:
-:bl: :bl: i. Call to Arms! - Increases block rate by an additional 15% and grants a shield equal to 30% of your defense 
-:bl: :bl: ii. Hoo hah hah - Additional shield with the value corresponding to the defense stat
-:bl: Gladiator:
-:bl: :bl: i. Let's Charge - Reduces damage by an additional 15% and restores 4.5% of HP
-:bl: :bl: ii. Hoo hoo hoo - Immediately restore HP with a value corresponding to the HP stat
-:bl: Assassin:
-:bl: :bl: i. Fan of Knives - Increases the number of targets to 4
-:bl: :bl: ii. Fatal Knife - The lower the target's HP, the higher the damage, up to 50% bonus damage
-:bl: Hunter:
-:bl: :bl: i. Quick Shot - The next skill deals 20% more damage
-:bl: :bl: ii. Sunder Armor Shot - For every 1 point of Concentration, you gain an additional 5% armor penetration
-:bl: Mage:
-:bl: :bl: i. Serenity - 15% increase in damage for the next 2 skills
-:bl: :bl: ii. Lightning Blast - 1 point of energy is restored after casting
-:bl: Warlock:
-:bl: :bl: i. Life Tap - After casting, the next skill will do 6% more damage
-:bl: :bl: ii. Soul Lash - For every stack of Soul Seal on the target, this spell does 1% more armor penetration
-:bl: Druid:
-:bl: :bl: i. Tranquility - Each stack of Seed of Life provides a shield from this skill by 10% for 10 seconds
-:bl: :bl: ii. Mend - Provides an additional 60% shield for 10 seconds
-:bl: Shaman:
-:bl: :bl: i. Chain Heal - Increases the target's resistance by an additional30%, and for each Ancestral Seal it reduces skill damage taken by 10% for 10 seconds
-:bl: :bl: ii. Riptide - Increase all healing by 10% for 8 seconds
+**2. Two new UP skills have been added for each class, with the following effects:**
+  Warrior:
+    i. Call to Arms! - Increases block rate by an additional 15% and grants a shield equal to 30% of your defense 
+    ii. Hoo hah hah - Additional shield with the value corresponding to the defense stat
+  Gladiator:
+    i. Let's Charge - Reduces damage by an additional 15% and restores 4.5% of HP
+    ii. Hoo hoo hoo - Immediately restore HP with a value corresponding to the HP stat
+  Assassin:
+    i. Fan of Knives - Increases the number of targets to 4
+    ii. Fatal Knife - The lower the target's HP, the higher the damage, up to 50% bonus damage
+  Hunter:
+    i. Quick Shot - The next skill deals 20% more damage
+    ii. Sunder Armor Shot - For every 1 point of Concentration, you gain an additional 5% armor penetration
+  Mage:
+    i. Serenity - 15% increase in damage for the next 2 skills
+    ii. Lightning Blast - 1 point of energy is restored after casting
+  Warlock:
+    i. Life Tap - After casting, the next skill will do 6% more damage
+    ii. Soul Lash - For every stack of Soul Seal on the target, this spell does 1% more armor penetration
+  Druid:
+    i. Tranquility - Each stack of Seed of Life provides a shield from this skill by 10% for 10 seconds
+    ii. Mend - Provides an additional 60% shield for 10 seconds
+  Shaman:
+    i. Chain Heal - Increases the target's resistance by an additional30%, and for each Ancestral Seal it reduces skill damage taken by 10% for 10 seconds
+    ii. Riptide - Increase all healing by 10% for 8 seconds
 
 **3. Class Skill Adjustments**
-:bl: Gladiator:
-:bl: :bl: 10% increase in healing for: Barbarian Veins, Cleave, Toughen, Severing Strike, Boil Blood, Bloody Combat, Battle Shout and Rising Rage
-:bl: Druid:
-:bl: :bl: Seed of life healing increased by 34.2%
-:bl: :bl: Sprouting Power healing increased by 9.4%
-:bl: :bl: Life bloom healing increased by 7.9%
+  Gladiator:
+    10% increase in healing for: Barbarian Veins, Cleave, Toughen, Severing Strike, Boil Blood, Bloody Combat, Battle Shout and Rising Rage
+  Druid:
+    Seed of life healing increased by 34.2%
+    Sprouting Power healing increased by 9.4%
+    Life bloom healing increased by 7.9%
 
 **4. Interface Optimizations**
-:bl: a. Equipment training function supports switching equipment from left to right
-:bl: b. Batch locking/unlocking of pets is added, and pet's previous slots will be registered
+  a. Equipment training function supports switching equipment from left to right
+  b. Batch locking/unlocking of pets is added, and pet's previous slots will be registered
 
 **5. Team System Optimizations**
-:bl: a. Expanded search system in the Hall and the team bulletin board
-:bl: b. Players with 3 mercenaries on their team can now directly join teams where players have been offline for extended periods of time
+  a. Expanded search system in the Hall and the team bulletin board
+  b. Players with 3 mercenaries on their team can now directly join teams where players have been offline for extended periods of time
 
 **6. Ula Legend Tournament Prize**
-:bl: a. Cloak acquisition will be reset for all players at 8AM on 28/05
-:bl: b. Increased the duration of the Cloak effect to 30 days
-:bl: c. Optimized the item description display
+  a. Cloak acquisition will be reset for all players at 8AM on 28/05
+  b. Increased the duration of the Cloak effect to 30 days
+  c. Optimized the item description display

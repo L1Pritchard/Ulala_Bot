@@ -7,7 +7,7 @@ module.exports = {
 	`Provides a preview of the patch notes and the option to send them to <#640817663131516939>`,
     aliases: [`patch`],
     args: false,
-    cooldown: 600,
+    cooldown: 10,
 	execute(message) {
 
             fs.readFile(`./patchnotes.txt`, `utf8`, function(err, contents) {
@@ -19,7 +19,7 @@ module.exports = {
                     return;
                 }
 
-                confirmchannel.send(`contents`, {split: true});
+                confirmchannel.send(contents, {split: true});
 
                 confirmchannel.send(`\*\*\_\_Are you happy with these patch notes to be send to everyone using the \`@here\` tag?\_\_\*\*`).then(sentMessage => {
                     sentMessage.react(`👍`);
@@ -35,7 +35,7 @@ module.exports = {
 
                         if (reaction.emoji.name === `👍`) {
                             announcementchannel.send(`\@here`);
-                            announcementchannel.send(`contents`, {split: true});
+                            announcementchannel.send(contents, {split: true});
                             message.reply(`these patch notes have been sent!`)
                         }
                         else {
