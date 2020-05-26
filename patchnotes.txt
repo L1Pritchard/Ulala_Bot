@@ -1,46 +1,59 @@
-Ulala: Idle Adventure will undergo scheduled maintenance on 14/05 12-2AM BST.
-After the maintenance, compensation rewards will be sent to thank you all for your patience!
+Ulala: Idle Adventure will undergo scheduled maintenance on May 28 8AM-10AM (BST).
 
 __**Update Contents:**__
-**1. New Ula Legend Tournament (5.15-5.30)**
-__a. Tournament Rules__
-    i. After the hunting season, players who have reached level 66 of the Volcano can sign up for the Ula Legend Tournament
-    ii. The Ula Legend Tournament is divided into multiple battle zones of 32 teams each.
-    iii. The team's highest recorded combat power will be used as the main criteria for zone allocation
-    iv. The Ula Legend Tournament consists of rounds of elimination matches. Teams will be eliminated by half at the end of each round until the championship is decided. An eliminated team may receive the corresponding ranking reward.
-    v. The best teams across the server will enter the Peak Zone. The lowest reward in the Peak zone is similar to the championship reward in normal zones
-    vi. Before the semi-finals, the tournament follows a two out of three to win system, and from the semi-finals it follows a three out of five to win system
-    vii. Teams that leave the team during the Ula Legend Tournament will be disqualified automatically and receive the lowest rank reward.
 
-__b. First Competition Schedule (BST)__
-   05/15 5PM Registrations open
-   05/18 5PM Registrations deadline
-   05/19 5PM Top 16
-   05/20 5PM Eighth-finals
-   05/21 5PM Quarter-finals
-   05/22 5PM Semi-finals
-   05/23 5PM Final
-   05/30 6PM Event closed
+**1. Cheerful Childhood Event**
+:bl: a. Arena: Ultra Rapid Fire Mode
+:bl: :bl: i. Event Period: 29/05 4AM - 10/06 4AM
+:bl: :bl: ii. Ultra Rapid Fire Mode will be available at the arena. During this mode, skills do not consume energy points.
+:bl: :bl: iii. Additional rewards are available for the number of victories accumulated during concurrent events.
 
-__c. Ula Legend Tournament Sign-In Event__
-   05/15 2AM - 05/29 2AM
+:bl: b. Cheerful Pack
+:bl: :bl: i. Event Period: 28/05 10PM - 09/06 10PM
 
-**2. Labor Day Event**
-__a. World Boss extra rewards:__
-   i. Event Period: After maintenance ~ Until the next maintenance
-   ii. World Boss challenge treasure chest rewards are increased during the event
+**2. Two new UP skills have been added for each class, with the following effects:
+:bl: Warrior:
+:bl: :bl: i. Call to Arms! - Increases block rate by an additional 15% and grants a shield equal to 30% of your defense 
+:bl: :bl: ii. Hoo hah hah - Additional shield with the value corresponding to the defense stat
+:bl: Gladiator:
+:bl: :bl: i. Let's Charge - Reduces damage by an additional 15% and restores 4.5% of HP
+:bl: :bl: ii. Hoo hoo hoo - Immediately restore HP with a value corresponding to the HP stat
+:bl: Assassin:
+:bl: :bl: i. Fan of Knives - Increases the number of targets to 4
+:bl: :bl: ii. Fatal Knife - The lower the target's HP, the higher the damage, up to 50% bonus damage
+:bl: Hunter:
+:bl: :bl: i. Quick Shot - The next skill deals 20% more damage
+:bl: :bl: ii. Sunder Armor Shot - For every 1 point of Concentration, you gain an additional 5% armor penetration
+:bl: Mage:
+:bl: :bl: i. Serenity - 15% increase in damage for the next 2 skills
+:bl: :bl: ii. Lightning Blast - 1 point of energy is restored after casting
+:bl: Warlock:
+:bl: :bl: i. Life Tap - After casting, the next skill will do 6% more damage
+:bl: :bl: ii. Soul Lash - For every stack of Soul Seal on the target, this spell does 1% more armor penetration
+:bl: Druid:
+:bl: :bl: i. Tranquility - Each stack of Seed of Life provides a shield from this skill by 10% for 10 seconds
+:bl: :bl: ii. Mend - Provides an additional 60% shield for 10 seconds
+:bl: Shaman:
+:bl: :bl: i. Chain Heal - Increases the target's resistance by an additional30%, and for each Ancestral Seal it reduces skill damage taken by 10% for 10 seconds
+:bl: :bl: ii. Riptide - Increase all healing by 10% for 8 seconds
 
-**3. Custom Giftpack**
-   a. Introducing four different levels of Custom Giftpacks. Players can choose their favorite items from a range of several options.
-   b. Event Period: May 13th 12:00:00-May 27th 11:59:59 UTC - 4
+**3. Class Skill Adjustments**
+:bl: Gladiator:
+:bl: :bl: 10% increase in healing for: Barbarian Veins, Cleave, Toughen, Severing Strike, Boil Blood, Bloody Combat, Battle Shout and Rising Rage
+:bl: Druid:
+:bl: :bl: Seed of life healing increased by 34.2%
+:bl: :bl: Sprouting Power healing increased by 9.4%
+:bl: :bl: Life bloom healing increased by 7.9%
 
-**4. Pet Adventure optimizations:**
-   a. One-click adventure function will be unlocked when the Pet Manual reaches lvl 40.
-   b. In the one-click adventure interface, players can more quickly refresh / configure pets / initiate adventure operations for all currently accessible adventure missions.
+**4. Interface Optimizations**
+:bl: a. Equipment training function supports switching equipment from left to right
+:bl: b. Batch locking/unlocking of pets is added, and pet's previous slots will be registered
 
-**5. Hero Hill reward system optimization (system will be updated at 9pm on the day of the update)**
-   a. Teams who reach the currently highest possible stage of the Hero Hill can ignore the rankings and directly receive the highest-grade reward.
+**5. Team System Optimizations**
+:bl: a. Expanded search system in the Hall and the team bulletin board
+:bl: b. Players with 3 mercenaries on their team can now directly join teams where players have been offline for extended periods of time
 
-**6. Adventurer’s Weekly Eleventh Edition.**
-
-**7. Made slight modifications to the "Don't stop me" emoji from the Little Tiger emoji series.**
+**6. Ula Legend Tournament Prize**
+:bl: a. Cloak acquisition will be reset for all players at 8AM on 28/05
+:bl: b. Increased the duration of the Cloak effect to 30 days
+:bl: c. Optimized the item description display

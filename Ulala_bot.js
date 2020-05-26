@@ -77,7 +77,7 @@ client.on(`message`, message => {
 });
 
 //autotimer for war placements
-const warjob1 = new CronJob(`0 9 * * 4`, function() {
+const warjob1 = new CronJob(`10 9 * * 4`, function() {
     const warchannel = client.channels.cache.get(`641976295781040135`);//clan-war channel
     const warann = client.channels.cache.get(`669663004031320077`);//war announcement channel
     const warembed = new Discord.MessageEmbed()
@@ -91,13 +91,13 @@ const warjob1 = new CronJob(`0 9 * * 4`, function() {
 warjob1.start();
 
 //autotimer for war placements last call
-const warjob2 = new CronJob(`30 8 * * 6`, function() {
+const warjob2 = new CronJob(`0 13-21/4 * * 4-6`, function() {
     const warchannel = client.channels.cache.get(`641976295781040135`);//clan-war channel
     const warann = client.channels.cache.get(`669663004031320077`);//war announcement channel
     const warembed2 = new Discord.MessageEmbed()
         .setColor(`RED`)
         .setTitle(`\*\*ALERT\*\*`)
-        .setDescription(`War placements are closing in 30 minutes!.\n\n 
+        .setDescription(`War placements are closing at 9AM BST on Saturday!.\n\n 
                         Please check your placement in ${warann} and join if you haven't already.\n\n
                         If you do not join you may be kicked out of the clan.`)
     warchannel.send(`@everyone`);
