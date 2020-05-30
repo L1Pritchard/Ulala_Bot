@@ -91,7 +91,7 @@ const warjob1 = new CronJob(`10 9 * * 4`, function() {
 warjob1.start();
 
 //autotimer for war placements last call
-const warjob2 = new CronJob(`0 13-21/4 * * 4-6`, function() {
+const warjob2 = new CronJob(`0 13-21/4 * * 4-5`, function() {
     const warchannel = client.channels.cache.get(`641976295781040135`);//clan-war channel
     const warann = client.channels.cache.get(`669663004031320077`);//war announcement channel
     const warembed2 = new Discord.MessageEmbed()
