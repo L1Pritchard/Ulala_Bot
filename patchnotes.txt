@@ -1,59 +1,33 @@
-Ulala: Idle Adventure will undergo scheduled maintenance on May 28 8AM-10AM (BST).
+Ulala: Idle Adventure will undergo scheduled maintenance on June 10 03:00-05:00AM (UTC - 4). During the maintenance period, players will not be able to log into the game. Should there be any changes, we will keep you updated. Please stay tuned! After the maintenance, compensation rewards will be sent to thank you all for your patience!
 
 __**Update Contents:**__
+**1. New levels available in the Sky Continent.**
+  a. Gilda Gorge: 200 stages total
+  b. Firefly Summit: 200 stages total
 
-**1. Cheerful Childhood Event**
-  a. Arena: Ultra Rapid Fire Mode
-    i. Event Period: 29/05 4AM - 10/06 4AM
-    ii. Ultra Rapid Fire Mode will be available at the arena. During this mode, skills do not consume energy points.
-    iii. Additional rewards are available for the number of victories accumulated during concurrent events.
+**2. Glory Trials**
+  a. During the event, adventurers who complete challenges issued by the Adventurer's Guild will accumulate glory points points, thereby increasing their challenge level. You can use glory points to claim rewards.
+  b. By activating the [Glory Pass] during the event, Adventurers will get a series of bonus extra rewards.
+  c. Glory Trials Event Period: June 10 After maintenance finishes - July 9, 23:59 UTC+8
+  
+**3. Cheerful Childhood Event - Magic Treasures**
+  a. Event Period: June 10 After maintenance finishes - July 9, 23:59 UTC+8
+  b. Players can obtain Magic Stones via daily check-ins and completing Glory Trials.
+  c. Magic Stones can be used to draw rewards in the Magic Treasures event, and each time you draw, you will flip a grid’s random line and receive random rewards. When players have accumulated a certain number of draws, they will be able to receive a specific costume. Players who have filled out the entire grid will be rewarded with the ultimate prize of ""Summer Swimsuit Treasure Chest”.
 
-  b. Cheerful Pack
-    i. Event Period: 28/05 10PM - 09/06 10PM
+**4. Cheerful Childhood Event - Check-in Event**
+  a. Event Period: June 10 After maintenance finishes - June 23, 5:00, for a total of 10 days check-in bonus. Each check-in will be rewarded with a certain number of Magic Stones.
 
-**2. Two new UP skills have been added for each class, with the following effects:**
-  Warrior:
-    i. Call to Arms! - Increases block rate by an additional 15% and grants a shield equal to 30% of your defense 
-    ii. Hoo hah hah - Additional shield with the value corresponding to the defense stat
-  Gladiator:
-    i. Let's Charge - Reduces damage by an additional 15% and restores 4.5% of HP
-    ii. Hoo hoo hoo - Immediately restore HP with a value corresponding to the HP stat
-  Assassin:
-    i. Fan of Knives - Increases the number of targets to 4
-    ii. Fatal Knife - The lower the target's HP, the higher the damage, up to 50% bonus damage
-  Hunter:
-    i. Quick Shot - The next skill deals 20% more damage
-    ii. Sunder Armor Shot - For every 1 point of Concentration, you gain an additional 5% armor penetration
-  Mage:
-    i. Serenity - 15% increase in damage for the next 2 skills
-    ii. Lightning Blast - 1 point of energy is restored after casting
-  Warlock:
-    i. Life Tap - After casting, the next skill will do 6% more damage
-    ii. Soul Lash - For every stack of Soul Seal on the target, this spell does 1% more armor penetration
-  Druid:
-    i. Tranquility - Each stack of Seed of Life provides a shield from this skill by 10% for 10 seconds
-    ii. Mend - Provides an additional 60% shield for 10 seconds
-  Shaman:
-    i. Chain Heal - Increases the target's resistance by an additional30%, and for each Ancestral Seal it reduces skill damage taken by 10% for 10 seconds
-    ii. Riptide - Increase all healing by 10% for 8 seconds
+**5. Interface optimizations**
+  a. One click equipment replacement function. Wear all your new equipment with only the press of a button!
+  b. Optimized the one-key enhancement function, added one-click enchantment and one-key tempering functions.
+  c. New Pre-war configuration function, which can be found in each game interface. This function allows for efficient deployment of all team members' skills, pets, and toy boxes.
+  d. Optimize the use of statues, canceled the confirmation popup, added a skip animation function.
+  e. Golden Finger will now support the deployment of skills, pets, and toy boxes.
 
-**3. Class Skill Adjustments**
-  Gladiator:
-    10% increase in healing for: Barbarian Veins, Cleave, Toughen, Severing Strike, Boil Blood, Bloody Combat, Battle Shout and Rising Rage
-  Druid:
-    Seed of life healing increased by 34.2%
-    Sprouting Power healing increased by 9.4%
-    Life bloom healing increased by 7.9%
+**6. Adventurer’s Weekly Edition 13**
 
-**4. Interface Optimizations**
-  a. Equipment training function supports switching equipment from left to right
-  b. Batch locking/unlocking of pets is added, and pet's previous slots will be registered
-
-**5. Team System Optimizations**
-  a. Expanded search system in the Hall and the team bulletin board
-  b. Players with 3 mercenaries on their team can now directly join teams where players have been offline for extended periods of time
-
-**6. Ula Legend Tournament Prize**
-  a. Cloak acquisition will be reset for all players at 8AM on 28/05
-  b. Increased the duration of the Cloak effect to 30 days
-  c. Optimized the item description display
+**7. Sound and Music optimizations**
+  a. Players can adjust the volume of background music and sound effects.
+  b. New background music change function.
+  c. Update the background music for the login, battle and main interfaces.
