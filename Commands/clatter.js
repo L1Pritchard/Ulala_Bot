@@ -57,7 +57,7 @@ module.exports = {
 			embed.setImage(`attachment://warlock.jpg`)
 		}
 
-		if (args[0] === `Assassin` || args[0] === `sin`) {
+		if (args[0] === `assassin` || args[0] === `sin`) {
 			embed.setColor(`RED`)
 			embed.setTitle(`Optimal Assassin Clatter Cards`)
 			embed.setDescription(`These are the optimal, end-game Assassin Clatter Cards`)
