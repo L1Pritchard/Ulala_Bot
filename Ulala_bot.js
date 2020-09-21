@@ -23,7 +23,7 @@ for (const file of commandFiles) {
 client.on(`guildMemberAdd`, member => {
     const channel = member.guild.channels.cache.find(ch => ch.name === `general`);
     if (!channel) return;
-    channel.send(`Welcome to the server, ${member}.\nPlease make sure to add yourself to the Clan War spreadsheet if you aren\'t on there already.`);
+    channel.send(`Welcome to the server, ${member}!`);
 });
 
 //command processing
