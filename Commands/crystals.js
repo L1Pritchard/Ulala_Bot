@@ -12,7 +12,7 @@ module.exports = {
 		> Assassin (alias: sin)
 		> Hunter (alias: hunt)
         > Mage`,
-    aliases: [`bondcrystals`],
+    aliases: [`bondcrystals`, `crystal`],
     usage: `[class]`,
     args: true,
 	execute(message, args) {
