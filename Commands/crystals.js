@@ -26,21 +26,21 @@ module.exports = {
                 {name: `\u200B`, value: `Attribute Crystals:`},
                 {name: `1`, value: `Attack/Crit 3`, inline: true},
                 {name: `2`, value: `Attack/Crit 2`, inline: true},
-                {name: `3`, value: `Crit 3`, inline: true},
-                {name: `4`, value: `Crit 2`, inline: true},
-                {name: `5`, value: `HP 3`, inline: true},
-                {name: `6`, value: `HP 2`, inline: true},
+                {name: `3`, value: `Attack/Impale 3`, inline: true},
+                {name: `4`, value: `Attack/Impale 2`, inline: true},
+                {name: `5`, value: `Crit 3`, inline: true},
+                {name: `6`, value: `Crit 2`, inline: true},
                 {name: `7`, value: `Armor/HP 3`, inline: true},
-                {name: `8`, value: `Armor/HP 2`, inline: true},
-                {name: `9`, value: `Attack/Impale 3`, inline: true},
+                {name: `8`, value: `HP 3`, inline: true},
+                {name: `9`, value: `HP 2`, inline: true},
                 {name: `\u200B`, value: `\u200B`},
                 {name: `\u200B`, value: `Skill Crystals:`},
-                {name: `\u200B`, value: `ATK SPD`, inline: true},
-                {name: `\u200B`, value: `Charging`, inline: true},
+                {name: `\u200B`, value: `Gifting`, inline: true},
                 {name: `\u200B`, value: `Combo`, inline: true},
+                {name: `\u200B`, value: `Secret`, inline: true},
+                {name: `\u200B`, value: `Charging`, inline: true},
                 {name: `\u200B`, value: `Support`, inline: true},
-                {name: `\u200B`, value: `Life-steal`, inline: true},
-                {name: `\u200B`, value: `Secret`, inline: true})
+                {name: `\u200B`, value: `ATK SPD`, inline: true})
 		}
 		
 		else if (args[0] === `druid`) {
@@ -55,17 +55,17 @@ module.exports = {
                 {name: `4`, value: `Attack/Impale 2`, inline: true},
                 {name: `5`, value: `Crit 3`, inline: true},
                 {name: `6`, value: `Crit 2`, inline: true},
-                {name: `7`, value: `Impale 3`, inline: true},
-                {name: `8`, value: `Armor/HP 3`, inline: true},
-                {name: `9`, value: `HP 3`, inline: true},
+                {name: `7`, value: `Armor/HP 3`, inline: true},
+                {name: `8`, value: `HP 3`, inline: true},
+                {name: `9`, value: `HP 2`, inline: true},
                 {name: `\u200B`, value: `\u200B`},
                 {name: `\u200B`, value: `Skill Crystals:`},
                 {name: `\u200B`, value: `Gifting`, inline: true},
                 {name: `\u200B`, value: `Combo`, inline: true},
                 {name: `\u200B`, value: `Secret`, inline: true},
                 {name: `\u200B`, value: `Charging`, inline: true},
-                {name: `\u200B`, value: `Resist`, inline: true},
-                {name: `\u200B`, value: `Survival`, inline: true})
+                {name: `\u200B`, value: `Support`, inline: true},
+                {name: `\u200B`, value: `ATK SPD`, inline: true})
 		}
             
 		else if (args[0] === `warrior`) {

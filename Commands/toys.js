@@ -26,9 +26,9 @@ module.exports = {
                 {name: `First`, value: `Sheep`},
                 {name: `Second`, value: `Snow Marmot (keep regular too)`},
                 {name: `Third`, value: `Hermit Crab`},
-                {name: `Fourth`, value: `Ankylosaur`},
+                {name: `Fourth`, value: `Moblin`},
                 {name: `\u200B`, value: `\u200B`},
-                {name: `Optionals:`, value: `Irish Elk\nQueen Dragon\nWind Dragon`})
+                {name: `Optionals:`, value: `Dodo Bird\nQueen Dragon\nBone Ankylosaur`})
 		}
 		
 		if (args[0] === `druid`) {
@@ -41,7 +41,7 @@ module.exports = {
                 {name: `Third`, value: `Hermit Crab`},
                 {name: `Fourth`, value: `Moblin`},
                 {name: `\u200B`, value: `\u200B`},
-                {name: `Optionals:`, value: `Irish Elk\nQueen Dragon\nWind Dragon\nDodo Bird\nDandelion`})
+                {name: `Optionals:`, value: `Dodo Bird\nQueen Dragon\nBone Ankylosaur`})
 		}
             
 		if (args[0] === `warrior`) {
