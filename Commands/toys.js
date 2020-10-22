@@ -51,10 +51,10 @@ module.exports = {
             embed.addFields(
                 {name: `First`, value: `White Camel`},
                 {name: `Second`, value: `Irish Elk`},
-                {name: `Third`, value: `Narwhal King`},
+                {name: `Third`, value: `Triceratops`},
                 {name: `Fourth`, value: `Snow Marmot (keep regular too)`},
                 {name: `\u200B`, value: `\u200B`},
-                {name: `Optionals:`, value: `Dimetrodon\nTriceratops\nWalrus\nAnkylosaur\nWind Dragon\nDandelion`})
+                {name: `Optionals:`, value: `Dimetrodon\nNarwhal King\nWalrus\nAnkylosaur\nWind Dragon\nDandelion`})
 		}
 
 		if (args[0] === `gladiator` || args[0] === `glad`) {
@@ -64,10 +64,10 @@ module.exports = {
             embed.addFields(
                 {name: `First`, value: `Snow Marmot (keep regular too)`},
                 {name: `Second`, value: `White Camel`},
-                {name: `Third`, value: `Natwhal King`},
+                {name: `Third`, value: `Triceratops`},
                 {name: `Fourth`, value: `Irish Elk`},
                 {name: `\u200B`, value: `\u200B`},
-                {name: `Optionals:`, value: `Dimetrodon\nTriceratops\nDandelion\nWind Dragon\nAnkylosaur`})
+                {name: `Optionals:`, value: `Dimetrodon\nNarwhal King\nDandelion\nWind Dragon\nAnkylosaur`})
 		}
 
 		if (args[0] === `assassin` || args[0] === `sin`) {

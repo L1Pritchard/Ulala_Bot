@@ -81,16 +81,16 @@ module.exports = {
                 {name: `5`, value: `HP 3`, inline: true},
                 {name: `6`, value: `HP 2`, inline: true},
                 {name: `7`, value: `Block 3`, inline: true},
-                {name: `8`, value: `Block 2`, inline: true},
-                {name: `9`, value: `Players Choice`, inline: true},
+                {name: `8`, value: `Attack/Crit 3`, inline: true},
+                {name: `9`, value: `Crit 3 OR Attack/Impale 3`, inline: true},
                 {name: `\u200B`, value: `\u200B`},
                 {name: `\u200B`, value: `Skill Crystals:`},
-                {name: `\u200B`, value: `Resist`, inline: true},
-                {name: `\u200B`, value: `Shield`, inline: true},
-                {name: `\u200B`, value: `Survival`, inline: true},
+                {name: `\u200B`, value: `Secret`, inline: true},
+                {name: `\u200B`, value: `Life Steal`, inline: true},
+                {name: `\u200B`, value: `Combo`, inline: true},
                 {name: `\u200B`, value: `ATK SPD`, inline: true},
                 {name: `\u200B`, value: `Gifting`, inline: true},
-                {name: `\u200B`, value: `Combo or Piercing`, inline: true})
+                {name: `\u200B`, value: `Piercing`, inline: true})
 		}
 
 		else if (args[0] === `gladiator` || args[0] === `glad`) {
@@ -104,16 +104,16 @@ module.exports = {
                 {name: `3`, value: `HP/Armor 3`, inline: true},
                 {name: `4`, value: `HP/Armor 2`, inline: true},
                 {name: `5`, value: `Block 3`, inline: true},
-                {name: `6`, value: `Block 2`, inline: true},
                 {name: `7`, value: `Block/Armor 3`, inline: true},
                 {name: `8`, value: `Block/Armor 2`, inline: true},
-                {name: `9`, value: `Impale 2`, inline: true},
+                {name: `6`, value: `Attack/Crit 3`, inline: true},
+                {name: `9`, value: `Attack/Impale 3 OR Crit 3`, inline: true},
                 {name: `\u200B`, value: `\u200B`},
                 {name: `\u200B`, value: `Skill Crystals:`},
-                {name: `\u200B`, value: `Survival`, inline: true},
-                {name: `\u200B`, value: `Life-Steal`, inline: true},
+                {name: `\u200B`, value: `Charging`, inline: true},
+                {name: `\u200B`, value: `Life-Steal (switch to Pursuing towards end-game)`, inline: true},
                 {name: `\u200B`, value: `Combo`, inline: true},
-                {name: `\u200B`, value: `Shield`, inline: true},
+                {name: `\u200B`, value: `Secret`, inline: true},
                 {name: `\u200B`, value: `Piercing`, inline: true},
                 {name: `\u200B`, value: `Gifting`, inline: true})
 		}
@@ -189,8 +189,8 @@ module.exports = {
                 {name: `\u200B`, value: `Piercing`, inline: true},
                 {name: `\u200B`, value: `Gifting`, inline: true},
                 {name: `\u200B`, value: `Secret`, inline: true},
-                {name: `\u200B`, value: `Charging`, inline: true},
-                {name: `\u200B`, value: `Pursuing`, inline: true})
+                {name: `\u200B`, value: `Charging OR ATK SPD`, inline: true},
+                {name: `\u200B`, value: `Pursuing OR ATK SPD`, inline: true})
 		}
 
 		else if (args[0] === `warlock` || args[0] === `lock`) {
@@ -214,8 +214,8 @@ module.exports = {
                 {name: `\u200B`, value: `Piercing`, inline: true},
                 {name: `\u200B`, value: `Gifting`, inline: true},
                 {name: `\u200B`, value: `Secret`, inline: true},
-                {name: `\u200B`, value: `Charging`, inline: true},
-                {name: `\u200B`, value: `Pursuing or ATK SPD`, inline: true})
+                {name: `\u200B`, value: `Charging OR ATK SPD`, inline: true},
+                {name: `\u200B`, value: `Pursuing OR ATK SPD`, inline: true})
 		}
     message.channel.send(embed)
     },
