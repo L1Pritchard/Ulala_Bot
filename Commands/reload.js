@@ -1,3 +1,5 @@
+const { botowner } = require(`../config.json`);
+
 module.exports = {
     name: `reload`,
     description: `Reloads a command`,
@@ -6,7 +8,7 @@ module.exports = {
         const command = message.client.commands.get(commandName)
             || message.client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
 
-        if (!message.member.roles.cache.some(roles => roles.name === "Officer")) {
+        if (!message.member.id === botowner) {
                message.reply(`you don't have permission to use this command.`);
                return;
         }

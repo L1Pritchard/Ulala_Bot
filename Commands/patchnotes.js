@@ -14,7 +14,7 @@ module.exports = {
                 const announcementchannel = message.client.channels.cache.get(`640817663131516939`);
                 const confirmchannel = message.client.channels.cache.get(`704372707764207678`);
                 
-                if (!message.member.roles.cache.some(roles => roles.name === "Officer")) {
+                if (!message.member.roles.cache.some(roles => roles.name === "Elder")) {
                     message.reply(`you don't have permission to use this command.`);
                     return;
                 }
