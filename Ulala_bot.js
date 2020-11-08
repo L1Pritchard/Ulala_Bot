@@ -21,7 +21,7 @@ for (const file of commandFiles) {
 
 //auto message for new members
 client.on(`guildMemberAdd`, member => {
-    const channel = member.guild.channels.cache.find(ch => ch.name === `general`);
+    const channel = member.guild.channels.cache.find(ch => ch.name === `general-game-chat`);
     if (!channel) return;
     channel.send(`Welcome to the server, ${member}!`);
 });
