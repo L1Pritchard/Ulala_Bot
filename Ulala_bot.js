@@ -28,7 +28,7 @@ client.on(`guildMemberAdd`, member => {
 
 //command processing
 client.on(`message`, message => {
-    if (!message.content.startsWith(prefix) || message.author.box) return;
+    if (!message.content.startsWith(prefix) || message.author.bot) return;
     const args = message.content.slice(prefix.length).split(/ +/);
     const commandName = args.shift().toLowerCase();
 
@@ -76,7 +76,7 @@ client.on(`message`, message => {
 
 });
 
-//autotimer for war placements
+/*autotimer for war placements
 const warjob1 = new CronJob(`10 9 * * 4`, function() {
     const warchannel = client.channels.cache.get(`641976295781040135`);//clan-war channel
     const warann = client.channels.cache.get(`669663004031320077`);//war announcement channel
@@ -104,7 +104,7 @@ const warjob2 = new CronJob(`0 21 * * 5`, function() {
     warchannel.send(warembed2);
     
 }, null, true, `Europe/London`);
-warjob2.start();
+warjob2.start();*/
 
 
 client.login(token);
