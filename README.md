@@ -6,12 +6,13 @@ Download this: [this](https://github.com/L1Pritchard/Ulala_Bot/archive/master.zi
 
 Add a file called **config.json** which contains:
 
+```json
 *{
     "prefix": "!",
     "token": "YOUR-DISCORD-BOT-TOKEN",
     "botowner": "YOUR-DISCORD-ID"
 }*
-
+```
 obviously changing the words for numbers
 
 it *should* be able to run like that
